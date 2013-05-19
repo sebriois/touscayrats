@@ -1,0 +1,287 @@
+﻿html {
+  background: #F0EDE1;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+  background-image: -webkit-linear-gradient(#E7E3CF .1em, transparent .1em);
+  background-size: 100% 1.5em;
+  background: -moz-linear-gradient(center top , #E7E3CF 0.1em, transparent 0.1em) repeat scroll 0% 0% / 100% 1.5em transparent;
+/*  background-color: #E7E3CF;*/
+	font: 0.9em "Trebuchet MS",Verdana,"Lucida Grande",Tahoma,Helvetica,Sans-Serif;
+	color: #444;
+}
+
+h1 {
+	color: #ff7800;
+	font-size: 1.4em;
+}
+
+h3 {
+	font-weight: 500;
+	color: #51473d;
+	margin-bottom: 10px;
+}
+
+/* @group Links */
+
+a, a.active {
+	color: #407DCA;
+	text-decoration: none;
+}
+a.visited {
+	color: white;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+/* @end */
+
+#wrapper {
+	margin: auto;
+	width: 1200px;
+}
+
+#header {
+	padding-top: 10px;
+	font-family: Chalkduster;
+}
+
+#header img {
+	float: right;
+	padding: 2px;
+	border: 1px solid #ddd;
+}
+
+#header h1 {
+	color: #407DCA;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	letter-spacing: -2px;
+}
+#header h2{
+	color: #ff7800;
+	margin-top: 5px;
+	margin-top: 10px;
+}
+
+#header #title {
+  float: left;
+  -moz-transform: rotate(-8deg);
+  -webkit-transform: rotate(-8deg);
+  border: 1px solid #E7E3CF;
+	box-shadow: 1px 1px 12px #D1D1D1;
+  padding: 0px 10px;
+  background-color: #F3F1EA;
+}
+
+#header #logo{
+  float:right;
+  width: 370px;
+}
+
+#header #logo_txt {
+  float: left;
+  text-align:right;
+  color:#841E1E;
+  margin-right:7px;
+}
+
+#main {
+  margin-bottom: 20px;
+}
+
+#left-panel {
+  float: left;
+  width: 70%;
+  background-color: white;
+}
+
+#right-panel {
+  float: right;
+  width: 27%;
+}
+
+#content {
+	padding: 20px;
+}
+
+#footer {
+	padding: 1px 10px;
+	background: #407DCA;
+	border-top: 3px solid #D1D1D1;
+	color: white;
+}
+
+
+.box {
+	background-color: white;
+	border: 1px dashed #d1d1d1;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.box h1 {
+  margin-top: 0;
+}
+
+#main h2 {
+  font-size:1.3em;
+	font-weight: 500;
+	color: #407DCA;
+	border-bottom: 1px solid #407DCA;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+ul#subnav {
+	background-color: #407DCA;
+	color: white;
+}
+
+ul#subnav li {
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 35px;
+}
+
+ul#subnav a {
+  color: white;
+}
+
+
+#content h3 {
+	color: #666;
+	font-size: 1.7em;
+	font-weight: normal;
+	margin: 1em 0 .5em 0;
+	padding: 10px 0 0 0;
+}
+
+#content p {
+  margin-top: 5px;
+  margin-bottom: 12px;
+}
+
+ul#navigation, ul#subnav {
+  margin: 0;
+  padding: 0;
+}
+
+ul#navigation {
+/*  margin-top: 10px;*/
+}
+
+ul#navigation li {
+  list-style-type: none;
+	display: inline-block;
+	font-family: Chalkduster;
+  background: -moz-linear-gradient(bottom, #454545, #6b6b6b 90%);
+  background: -webkit-linear-gradient(bottom, #454545, #6b6b6b 90%);
+	background-color: #454545;
+	-webkit-border-radius: 4px 4px 0 0;
+	border-radius: 4px 4px 0 0;
+	margin-left: 5px;
+	padding: 0px 13px;
+}
+
+ul#navigation li.active {
+  background: -moz-linear-gradient(bottom, #407DCA, #8cb1df 90%);
+  background: -webkit-linear-gradient(bottom, #407DCA, #8cb1df 90%);
+  background-color: #407DCA;
+}
+
+ul#navigation li a {
+	font-size: 17px;
+	text-transform: uppercase;
+	line-height: 35px;
+	letter-spacing: -0.3px;
+	color: white;
+	text-decoration: none;
+}
+
+ul#navigation li a:hover {
+	color: #ff7800;
+}
+
+ul#navigation li.active a {
+	color: white;
+}
+
+.clear {
+	clear: both;
+}
+
+
+table#tarifs {
+  width: 60%;
+  border-collapse: collapse;
+  border: 1px solid #666;
+}
+td {
+   padding: 5px;
+}
+tr.last td {
+   border-top:1px solid #666;
+}
+
+table#classes {
+  border-collapse: collapse;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+table#classes th, table#classes td {
+   border: 1px solid #999;
+   padding: 5px;
+}
+
+img.photo {
+  padding: 2px;
+  margin: 10px;
+  border: 1px solid #ddd;
+}
+
+.lighter_text {
+  color: #ddd;
+}
+
+.article {
+  float: left;
+  font-family: 12px "Baskerville";
+  border: 1px solid #ddd;
+  width: 364px;
+}
+
+.article h4 {
+  padding: 4px;
+  margin: 0;
+  background: #e2dbd3;
+  color: #e2001a;
+}
+
+.article p {
+  padding: 6px;
+}
+
+.article a {
+  color: #e2001a;
+}
+
+.citation {
+  border: 1px solid #ddd;
+  background: #f7f7f7;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.shadowed {
+	box-shadow: 1px 1px 12px #D1D1D1;
+}
